@@ -1,3 +1,8 @@
 CLAUDE.md
 docs/PLAN.md
 *:Zone.Identifier
+*.o
+*.d
+*.a
+*.so
+obj/

@@ -68,6 +68,8 @@ all: $(NAME)
 $(NAME) : $(OBJ)
 	ar rcs $(NAME) $(OBJ)
 
+$(OBJ) $(BONUS_OBJ): libft.h
+
 bonus: $(BONUS_OBJ)
 	@$(MAKE) OBJ="$(BONUS_OBJ)"
 
